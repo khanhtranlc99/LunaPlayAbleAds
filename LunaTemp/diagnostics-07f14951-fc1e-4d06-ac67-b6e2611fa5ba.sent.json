@@ -1,0 +1,232 @@
+{
+  "BuildID": "07f14951-fc1e-4d06-ac67-b6e2611fa5ba",
+  "Command": "project:upload",
+  "ProjectID": "7067a8d05e53d2f46a9e6cc57c118a8d",
+  "ProjectStateHash": "1ae9fa060c98658030aa9df707bb6441e3b068f51cc50fcf598a18e0eb4f5c38",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1698057126472,
+  "EndTime": 1698057150219,
+  "PlaygroundUserID": 11600,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "playground",
+  "UnityVersion": "2020.3.42f1",
+  "LunaVersion": "5.3.0",
+  "LogCount": 9,
+  "Logs": [
+    {
+      "LogID": "f18be6c5-70cb-47a7-8421-b6cc223dd656",
+      "Order": 6,
+      "Timestamp": 1698057150440,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: Playable.InstallFullGame",
+      "Details": [
+        "You are not using the Luna API: Playable.InstallFullGame. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "Playable",
+        "InstallFullGame"
+      ],
+      "DetailsValues": [
+        "Playable",
+        "InstallFullGame"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "64abb9d2-fef7-4f3a-b85f-7dbff9abf605",
+      "Order": 6,
+      "Timestamp": 1698057150441,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: LifeCycle.GameEnded",
+      "Details": [
+        "You are not using the Luna API: LifeCycle.GameEnded. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "DetailsValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "e47a8307-9d2c-4bc0-93d1-6a1b6839b2ca",
+      "Order": 6,
+      "Timestamp": 1698057150441,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "0a6e7103-5543-4796-b2c6-c7029b027de3",
+      "Order": 6,
+      "Timestamp": 1698057150442,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "1a5d3c1d-d32a-4f46-8f57-4558306afe3a",
+      "Order": 0,
+      "Timestamp": 1698057131191,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1006",
+      "Description": "Linear color space is not supported",
+      "Details": [
+        "Due to compatibility reasons, Luna is only able to use Gamma color space for rendering. Please adjust your player settings."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "7384797a-9159-4cb1-abb4-54e74396bcfc",
+      "Order": 1,
+      "Timestamp": 1698057131191,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1014",
+      "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+      "Details": [
+        "Navigate to the Runtime Analysis > Code tab to enable code stripping"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "a64d53ff-70a1-45b1-8a39-9fe593535f80",
+      "Order": 2,
+      "Timestamp": 1698057131200,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [
+        "com.unity.timeline (1.4.8)"
+      ],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "D:/GreenKnight/LunaSample_Gsk/Packages\\manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "7f01cf5f-43e5-487c-b9d7-2fb9ec4d0d7d",
+      "Order": 3,
+      "Timestamp": 1698057131200,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1002",
+      "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+      "Details": [
+        "IconVS",
+        "BarWhite",
+        "IconStrengh",
+        "IconHealth",
+        "nv",
+        "Hair_male_04",
+        "IconMain",
+        "NV_white_male",
+        "Hair_male_06"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 9,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "b79107a0-6341-4ca7-a4c1-cd39f1568654",
+      "Order": 4,
+      "Timestamp": 1698057131200,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1008",
+      "Description": "There are missing components on Text Power.",
+      "Details": [
+        "Text Power",
+        "Text HP",
+        "Text Power",
+        "Text HP"
+      ],
+      "DescriptionValues": [
+        "Text Power"
+      ],
+      "DetailsValues": [],
+      "LogCount": 4,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}
